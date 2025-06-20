@@ -5,13 +5,13 @@ import pandas as pd
 
 
 
-st.title("🚨 Fraud Detection site")  
-st.markdown("### Welcome to Fraud detection App!!💕") 
-
-
 model = joblib.load("model.pkl")
 columns = ['Age', 'AcountBalance', 'TransactionAmount', 'AnomalyScore','Hour', 'DayOfweek', 'IsWeekend', 'Logindiffhours',
       ]
+
+
+st.title("🚨 Fraud Detection site")  
+st.markdown("### Welcome to Fraud detection App!!💕") 
 
 def predict_fraud(input):
     input["Age"] = input["Age"].clip(0,100)
