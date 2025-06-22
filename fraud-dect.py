@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+from imblearn.ensemble import BalancedRandomForestClassifier
 import pandas as pd
 
 
