@@ -1,8 +1,8 @@
-# 🚨 fraud-detection-app
+# 🚨 Fraud-Detection-App
 
 Welcome to **Fruad Detection App** - A Streamlit-powered web that hpls detect fraudulent transactions using Machine Learning! 🧠💸
 
----
+<br>
 
 ## 📌 Features 
 
@@ -11,7 +11,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that hpls detect fr
 - ✅ Clean and simple interface
 - 🛡️ Based on `BalancedRandomForestClassisfier` from `imabalnced-learn`
 
----
+<br>
 
 ## 🚀 How to use:
 
@@ -20,7 +20,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that hpls detect fr
 3. Click **Predict**
 4. See whether the transation is fruad or not!!
 
----
+<br>
 
 ## 🧠 Model info
 
@@ -32,7 +32,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that hpls detect fr
 
 - **Preprocessing:** Clipping out-of-bound values for robustness
 
----
+<br>
 
 ## 📉 Model Limitations
 
@@ -43,7 +43,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that hpls detect fr
 
 This is a common challenge in fraud detection, and the model may need further tuning and more real-world data to improve accuracy. Use the predictions as a **supporting tool**, not as the final decision. 
 
----
+<br>
 
 ## 🛠 Tech stack
 
