@@ -4,6 +4,10 @@ import numpy as np
 import pandas as pd
 from imblearn.ensemble import BalancedRandomForestClassifier
 
+import cloudpickle
+with open("model.pkl", "rb") as f:
+    model = cloudpickle.load(f)
+
 
 
 
@@ -11,7 +15,6 @@ st.title("🚨 Fraud Detection site")
 st.markdown("### Welcome to Fraud detection App!!💕") 
 
 
-model = joblib.load("model.pkl")
 columns = ['Age', 'AcountBalance', 'TransactionAmount', 'AnomalyScore','Hour', 'DayOfweek', 'IsWeekend', 'Logindiffhours',
       ]
 
