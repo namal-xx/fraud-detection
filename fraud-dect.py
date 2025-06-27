@@ -14,7 +14,7 @@ st.markdown("<h4 style='text-align: center;'> Welcome to Fraud detection App!!ðŸ
 st.markdown("**Enter the infomation below to check whether it is fruad or not.**")  
 
 
-model = joblib.load("model.pkl", "rb")     
+model = joblib.load("model.pkl")     
 columns = ['Age', 'AcountBalance', 'TransactionAmount', 'AnomalyScore','Hour', 'DayOfweek', 'IsWeekend', 'Logindiffhours',
       ]
 
