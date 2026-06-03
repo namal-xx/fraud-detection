@@ -18,7 +18,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that helps detect f
 1. Visit the [live app here](https://fraud-detection-2mj8dcsqkf4mb7xqrz6h3w.streamlit.app/)
 2. Enter the requested details
 3. Click **Predict**
-4. See whether the transaction is fruad or not!
+4. See whether the transaction is fruad or not
 
 <br>
 
