@@ -36,7 +36,7 @@ Welcome to **Fruad Detection App** - A Streamlit-powered web that helps detect f
 
 ## 📉 Model Limitations
 
-⚠️ This modle was trained on highly imbalanced dataset (very few fraudulent transactions compared to normal ones). While it does its best to detect fraud, it's not 100% accurate:
+⚠️ This model was trained on highly imbalanced dataset (very few fraudulent transactions compared to normal ones). While it does its best to detect fraud, it's not 100% accurate:
 
 - Sometimes it **flags legitimate transation as fruad** (false positive)
 - Sometimes it **misses actual fraud** (false negative)
